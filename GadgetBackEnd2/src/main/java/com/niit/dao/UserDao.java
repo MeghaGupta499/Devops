@@ -4,8 +4,7 @@ import com.niit.model.User;
 
 public interface UserDao {
 	public void InsertUser(User u);
-
-    public int update(UserDao uid);
     public User getUserById(int uid);
-
+    public User getUserByName(String uname);
+    public User getUserByEmail(String uemail);
 }

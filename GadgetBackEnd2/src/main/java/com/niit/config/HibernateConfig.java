@@ -39,7 +39,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 			System.out.println("inside dataSource");
 	        DriverManagerDataSource dataSource = new DriverManagerDataSource();
 	        dataSource.setDriverClassName("org.h2.Driver");
-	        dataSource.setUrl("jdbc:h2:tcp://localhost/~/MyGadget");
+	        dataSource.setUrl("jdbc:h2:tcp://localhost/~/MyElec");
 	        dataSource.setUsername("sa");
 	        dataSource.setPassword("");
 	        return dataSource;

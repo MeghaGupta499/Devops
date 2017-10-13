@@ -1,0 +1,18 @@
+.card {
+  margin-top: 2px;
+  background: #eee;
+  padding: 8em;
+  line-height: 1.0em; }
+  
+  .section{width:100%;margin-left:-15px;padding:2px;padding-left:15px;padding-right:15px; padding-bottom:10px;background:#c0c0c0}
+  .title-attr{margin-top:0;margin-bottom:0;color:black;}
+  
+  .btn-minus{cursor:pointer;font-size:7px;display:inline;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-right:2;width:20px}
+.btn-plus{cursor:pointer;font-size:7px;display:inline;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-left:2;width:20px}
+
+  .section{width:50%;}
+    .menu-items{padding-left:0;}
+    div.section > div {width:100%;display:inline-flex;}
+div.section > div > input {margin:0;padding-left:5px;font-size:10px;padding-right:5px;max-width:40%; height:30px;text-align:center;}
+
+ 
